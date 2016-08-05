@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://autovermietung-rentme.de/wp-content/uploads/2016/01/logo-rentme.jpg">
+    <title>Dashboard Template for Rentme</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- IE10 viewport hack  -->
+    <link href="Dashboard-Dateien/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="Dashboard-Dateien/dashboard.css" rel="stylesheet">
+    <link href="Dashboard-Dateien/datepicker.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700,100' rel='stylesheet' type='text/css'>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Rentme BackOffice</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <input   class="form-control" placeholder="Search..." type="text">
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="#">Reservirungen <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Analytics</a></li>
+            <li><a href="#">Export</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">Dashboard</h1>
+          <div class="row">
+            <div class="col-md-4 col-md-offset-8">
+              <select name="Auto ID" id="autoID" class="form-control">
+                <option>Reise zum Mond</option>
+                <option>Rote Winterschuhe</option>
+                <option>Neues iPhone</option>
+                <option>Big Bang</option>
+                <option>Altes Fahrrad</option>
+              </select>
+            </div>
+          </div>
+          <section class='reserved_item row'>
+            <div class="row">
+              <h2 class="sub-header">Reservierungsdatum</h2>
+              <div class="col-md-1"><span class='field-title'>Von</span></div>
+                <div class="col-md-2">
+                  <input value="Lorem" readonly type="text" class="form-control">
+                </div>
+                <div class="col-md-2">
+                  <input value="Lorem" readonly type="text" class="form-control">
+                </div>
+                <div class="col-md-1 col-md-offset-2"><span class='field-title'>Bis</span></div>
+                <div class="col-md-2">
+                  <input value="Lorem" readonly type="text" class="form-control">
+                </div>
+                <div class="col-md-2">
+                  <input value="Lorem" readonly type="text" class="form-control">
+              </div>
+            </div>
+            <div class="row">
+              <h2 class="sub-header">Rund um Geld</h2>
+              <div class="col-md-2"><span class='field-title'>Vorname</span></div>
+              <div class="col-md-2">
+                <input value="Lorem" readonly type="text" class="form-control">
+              </div>
+              <div class="col-md-2">
+                <span class='field-title'>Kaution</span>
+              </div>
+              <div class="col-md-2">
+                <input value="Lorem" readonly type="text" class="form-control">
+              </div>
+              <div class="col-md-2">
+                <span class='field-title'>Zahlungsart</span>
+              </div>
+              <div class="col-md-2">
+                <input value="Lorem" readonly type="text" class="form-control">
+              </div>
+              <div class="col-md-offset-7 col-md-2"><span class='field-title'>Typ</span></div>
+              <div class="col-md-3">
+                <input value="Lorem" readonly type="text" class="form-control">
+              </div>
+            </div>
+            <div class="row">
+              <h2 class="sub-header">Persönliche Datei</h2>
+              <div class="col-md-2"><span class='field-title'>Vorname</span></div>
+              <div class="col-md-2"><input value="Lorem" readonly type="text" class="form-control"></div>
+              <div class="col-md-2"><span class='field-title'>Nachname</span></div>
+              <div class="col-md-2"><input value="Lorem" readonly type="text" class="form-control"></div>
+            
+              <div class="col-md-2"><span class='field-title'>Ausweis</span></div>
+              <div class="col-md-2"><input value="Lorem" readonly type="text" class="form-control"></div>
+              <div class="col-md-2"><span class='field-title'>Ausweis Nr </span></div>
+              <div class="col-md-2"><input value="Lorem" readonly type="text" class="form-control"></div>
+              <div class="col-md-2"><span class='field-title'>Land</span></div>
+              <div class="col-md-2"><input value="Lorem" readonly type="text" class="form-control"></div>
+              <div class="col-md-2"><span class='field-title'>Führerschein Nr</span></div>
+              <div class="col-md-2"><input value="Lorem" readonly type="text" class="form-control"></div>
+              <div class="col-md-2"><span class='field-title'>Land</span></div>
+              <div class="col-md-2"><input value="Lorem" readonly type="text" class="form-control"></div>
+              <div class="col-md-4"></div>
+              <div class="col-md-2"><span class='field-title'>SCHUFA</span></div>
+              <div class="col-md-2"><input value="Lorem" readonly type="text" class="form-control"></div>
+              <div class="col-md-8"></div>
+            </div>
+            <div class="row">
+              <h2 class="sub-header">Anschrift</h2>
+              <div class="col-md-2"><span class='field-title'>Stadt</span></div>
+              <div class="col-md-2"><input value="Lorem" readonly type="text" class="form-control"></div>
+              <div class="col-md-2"><span class='field-title'>Strasse</span></div>
+              <div class="col-md-2"><input value="Lorem" readonly type="text" class="form-control"></div>
+              <div class="col-md-2"><span class='field-title'>Haus Nr.</span></div>
+              <div class="col-md-2"><input value="Lorem" readonly type="text" class="form-control"></div>
+              <div class="col-md-2"><span class='field-title'>Phone</span></div>
+              <div class="col-md-2"><input value="Lorem" readonly type="text" class="form-control"></div>
+              <div class="col-md-2"><span class='field-title'>E-mail</span></div>
+              <div class="col-md-2"><input value="Lorem" readonly type="text" class="form-control"></div>
+              <div class="col-md-2 col-xs-6"><span class='field-title'>Newsletter</span></div>
+              <div class="col-md-2 col-xs-6">
+                <span class="checkbox subscribed" data-subscription="subscribed">
+                  <span class="glyphicon glyphicon-ok"></span>
+                  <span class="glyphicon glyphicon-remove"></span>
+                </span>
+
+              </div>
+            </div> 
+          </section>
+          <section class='reserved_item row'>
+            <div class="row">
+              <h2 class="sub-header">Reservierungsdatum</h2>
+              <div class="col-md-1"><span class='field-title'>Von</span></div>
+                <div class="col-md-2">
+                  <input value="Lorem" readonly type="text" class="form-control">
+                </div>
+                <div class="col-md-2">
+                  <input value="Lorem" readonly type="text" class="form-control">
+                </div>
+                <div class="col-md-1 col-md-offset-2"><span class='field-title'>Bis</span></div>
+                <div class="col-md-2">
+                  <input value="Lorem" readonly type="text" class="form-control">
+                </div>
+                <div class="col-md-2">
+                  <input value="Lorem" readonly type="text" class="form-control">
+              </div>
+            </div>
+            <div class="row">
+              <h2 class="sub-header">Rund um Geld</h2>
+              <div class="col-md-2"><span class='field-title'>Vorname</span></div>
+              <div class="col-md-2">
+                <input value="Lorem" readonly type="text" class="form-control">
+              </div>
+              <div class="col-md-2">
+                <span class='field-title'>Kaution</span>
+              </div>
+              <div class="col-md-2">
+                <input value="Lorem" readonly type="text" class="form-control">
+              </div>
+              <div class="col-md-2">
+                <span class='field-title'>Zahlungsart</span>
+              </div>
+              <div class="col-md-2">
+                <input value="Lorem" readonly type="text" class="form-control">
+              </div>
+              <div class="col-md-offset-7 col-md-2"><span class='field-title'>Typ</span></div>
+              <div class="col-md-3">
+                <input value="Lorem" readonly type="text" class="form-control">
+              </div>
+            </div>
+            <div class="row">
+              <h2 class="sub-header">Persönliche Datei</h2>
+              <div class="col-md-2"><span class='field-title'>Vorname</span></div>
+              <div class="col-md-2"><input value="Lorem" readonly type="text" class="form-control"></div>
+              <div class="col-md-2"><span class='field-title'>Nachname</span></div>
+              <div class="col-md-2"><input value="Lorem" readonly type="text" class="form-control"></div>
+              <div class="col-md-2"><span class='field-title'>Ausweis</span></div>
+              <div class="col-md-2"><input value="Lorem" readonly type="text" class="form-control"></div>
+              <div class="col-md-2"><span class='field-title'>Ausweis Nr </span></div>
+              <div class="col-md-2"><input value="Lorem" readonly type="text" class="form-control"></div>
+              <div class="col-md-2"><span class='field-title'>Land</span></div>
+              <div class="col-md-2"><input value="Lorem" readonly type="text" class="form-control"></div>
+              <div class="col-md-2"><span class='field-title'>Führerschein Nr</span></div>
+              <div class="col-md-2"><input value="Lorem" readonly type="text" class="form-control"></div>
+              <div class="col-md-2"><span class='field-title'>Land</span></div>
+              <div class="col-md-2"><input value="Lorem" readonly type="text" class="form-control"></div>
+              <div class="col-md-4"></div>
+              <div class="col-md-2"><span class='field-title'>SCHUFA</span></div>
+              <div class="col-md-2"><input value="Lorem" readonly type="text" class="form-control"></div>
+              <div class="col-md-8"></div>
+            </div>
+            <div class="row">
+              <h2 class="sub-header">Anschrift</h2>
+              <div class="col-md-2"><span class='field-title'>Stadt</span></div>
+              <div class="col-md-2"><input value="Lorem" readonly type="text" class="form-control"></div>
+              <div class="col-md-2"><span class='field-title'>Strasse</span></div>
+              <div class="col-md-2"><input value="Lorem" readonly type="text" class="form-control"></div>
+              <div class="col-md-2"><span class='field-title'>Haus Nr.</span></div>
+              <div class="col-md-2"><input value="Lorem" readonly type="text" class="form-control"></div>
+              <div class="col-md-2"><span class='field-title'>Phone</span></div>
+              <div class="col-md-2"><input value="Lorem" readonly type="text" class="form-control"></div>
+              <div class="col-md-2"><span class='field-title'>E-mail</span></div>
+              <div class="col-md-2"><input value="Lorem" readonly type="text" class="form-control"></div>
+              <div class="col-md-2 col-xs-6"><span class='field-title'>Newsletter</span></div>
+              <div class="col-md-2 col-xs-6">
+                <span class="checkbox" data-subscription="not-subscribed">
+                  <span class="glyphicon glyphicon-ok"></span>
+                  <span class="glyphicon glyphicon-remove"></span>
+                </span>
+              </div>
+            </div> 
+          </section>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="Dashboard-Dateien/jquery.js"></script>
+    <script src="Dashboard-Dateien/bootstrap.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="Dashboard-Dateien/ie10-viewport-bug-workaround.js"></script>
+ 
+
+</body></html>
+
+
+
+
+<!-- http://themes.getbootstrap.com/products/dashboard-->
